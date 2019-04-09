@@ -1,9 +1,10 @@
 body {
-  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: linear-gradient(to bottom right, #f3bcf0, #fa6c97);
+
 }
 
 * {
@@ -13,7 +14,7 @@ body {
 
 .msg-box {
   border-radius: 50%;
-  background: white;
+  background: #fff;
   overflow: hidden;
   height: 20px;
   width: 20px;
@@ -38,8 +39,6 @@ i {
   width: 400px;
   height: 400px;
   position: relative;
-  box-shadow: 1px 4px 8px black;
-  background: linear-gradient(to bottom right, #f3bcf0, #fa6c97);
 }
 
 .button {
@@ -113,7 +112,7 @@ i {
   width: 200px;
   height: 200px;
   border-radius: 10px;
-  box-shadow: 5px 2px 10px black;
+  box-shadow: 5px 2px 10px grey;
 }
 i.mss {
   border-bottom: 1px solid gainsboro;
